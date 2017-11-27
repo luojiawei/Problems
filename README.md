@@ -24,3 +24,25 @@
     
     
 
+2.通过github下载的jar
+
+如下载leakcanary jar包：
+
+Getting started
+
+In your build.gradle:
+
+ 
+```
+dependencies {
+   compile "org.java-websocket:Java-WebSocket:1.3.6"
+ }
+```
+
+通过AndroidStudio运行后，jar下载在如下目录：
+
+
+```
+C:\Users\用户名\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.6
+```
+
