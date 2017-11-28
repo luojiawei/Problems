@@ -1,5 +1,5 @@
-# 记录github遇到的问题
-1.提交的commit没有被统计到contributions
+# 记录平时遇到的问题
+1. 提交的commit没有被统计到contributions
 
 原因：本地配置的邮箱与github配置的不一样。
     
@@ -24,7 +24,7 @@
     
     
 
-2.通过github下载的jar
+2. 通过github下载的jar
 
 如下载leakcanary jar包：
 
@@ -46,3 +46,17 @@ dependencies {
 C:\Users\用户名\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.6
 ```
 
+3. AS导入工程报错
+
+
+```
+SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable
+```
+
+在环境变量-->系统变量-->新建
+
+变量名：ANDROID_HOME
+
+变量值：E:\AndroidStudio_SDK\sdk
+
+然后在path中添加%ANDROID_HOME%\tools，重启AS即可。
