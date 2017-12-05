@@ -1,5 +1,5 @@
 # 记录平时遇到的问题
-1. 提交的commit没有被统计到contributions
+#### 1. 提交的commit没有被统计到contributions
 
 原因：本地配置的邮箱与github配置的不一样。
     
@@ -24,7 +24,7 @@
     
     
 
-2. 通过github下载的jar
+#### 2. 通过github下载的jar
 
 如下载leakcanary jar包：
 
@@ -46,7 +46,7 @@ dependencies {
 C:\Users\用户名\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.6
 ```
 
-3. AS导入工程报错
+#### 3. AS导入工程报错
 
 
 ```
