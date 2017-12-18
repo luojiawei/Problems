@@ -1,5 +1,6 @@
 # 记录平时遇到的问题
-#### 1. 提交的commit没有被统计到contributions
+## 1、环境配置问题
+#### 1.1  提交的commit没有被统计到contributions
 
 原因：本地配置的邮箱与github配置的不一样。
     
@@ -24,7 +25,7 @@
     
     
 
-#### 2. 通过github下载的jar
+#### 1.2 通过github下载的jar
 
 如下载leakcanary jar包：
 
@@ -46,7 +47,7 @@ dependencies {
 C:\Users\用户名\.gradle\caches\modules-2\files-2.1\org.java-websocket\Java-WebSocket\1.3.6
 ```
 
-#### 3. AS导入工程报错
+#### 1.3 AS导入工程报错
 
 
 ```
@@ -60,3 +61,16 @@ SDK location not found. Define location with sdk.dir in the local.properties fil
 变量值：E:\AndroidStudio_SDK\sdk
 
 然后在path中添加%ANDROID_HOME%\tools，重启AS即可。
+
+
+## 2、网络开发问题
+
+### 2.1 socket开发 InputStream，BufferedReader的readline收不到数据
+
+原因：
+
+发送的数据没有换行符，readline读取不到结束符
+
+解决方法：
+
+发送的数据后面加上 "\r\n"
