@@ -1,4 +1,12 @@
 # 记录平时遇到的问题
+
+## 目录
+
+[1、环境配置问题](#enviroment)
+
+[2、网络开发问题](#network)
+
+<span id = "enviroment"></span>
 ## 1、环境配置问题
 #### 1.1  提交的commit没有被统计到contributions
 
@@ -63,6 +71,7 @@ SDK location not found. Define location with sdk.dir in the local.properties fil
 然后在path中添加%ANDROID_HOME%\tools，重启AS即可。
 
 
+<span id = "network"></span>
 ## 2、网络开发问题
 
 ### 2.1 socket开发 InputStream，BufferedReader的readline收不到数据
