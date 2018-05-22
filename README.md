@@ -6,6 +6,8 @@
 
 [2、网络开发问题](#network)
 
+[3、对apk进行系统签名](https://github.com/luojiawei/Problems/第三方apk进行系统签名.md)
+
 <span id = "enviroment"></span>
 ## 1、环境配置问题
 #### 1.1  提交的commit没有被统计到contributions
