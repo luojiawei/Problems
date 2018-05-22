@@ -6,7 +6,7 @@
 
 [2、网络开发问题](#network)
 
-[3、对apk进行系统签名](https://github.com/luojiawei/Problems/第三方apk进行系统签名.md)
+[3、对apk进行系统签名](https://github.com/luojiawei/Problems/blob/master/Problem/%E7%AC%AC%E4%B8%89%E6%96%B9apk%E8%BF%9B%E8%A1%8C%E7%B3%BB%E7%BB%9F%E7%AD%BE%E5%90%8D.md)
 
 <span id = "enviroment"></span>
 ## 1、环境配置问题
