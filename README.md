@@ -8,6 +8,8 @@
 
 [3、对apk进行系统签名](https://github.com/luojiawei/Problems/blob/master/Problem/%E7%AC%AC%E4%B8%89%E6%96%B9apk%E8%BF%9B%E8%A1%8C%E7%B3%BB%E7%BB%9F%E7%AD%BE%E5%90%8D.md)
 
+[4、宏定义控制APP是否编译到源码](https://github.com/luojiawei/Problems/blob/master/Problem/宏定义控制APP是否编译到源码.md)
+
 <span id = "enviroment"></span>
 ## 1、环境配置问题
 #### 1.1  提交的commit没有被统计到contributions
