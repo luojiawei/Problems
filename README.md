@@ -10,6 +10,9 @@
 
 [4、宏定义控制APP是否编译到源码](https://github.com/luojiawei/Problems/blob/master/Problem/宏定义控制APP是否编译到源码.md)
 
+[5、NDK开发总结(捕获异常)](https://www.cnblogs.com/zhangyan-2015/p/5865536.html)
+
+
 <span id = "enviroment"></span>
 ## 1、环境配置问题
 #### 1.1  提交的commit没有被统计到contributions
