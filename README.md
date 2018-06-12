@@ -77,6 +77,30 @@ SDK location not found. Define location with sdk.dir in the local.properties fil
 
 然后在path中添加%ANDROID_HOME%\tools，重启AS即可。
 
+#### 1.4 which is not in the whitelist
+
+Android6.0在frameworks/base/core/java/com 增加代码编译报错 ==unknown package name of class file==
+
+Android8.1在frameworks/base/core/java/com 增加代码编译报错 ==which is not in the whitelist==
+
+
+在build/core/tasks/check_boot_jars/check_boot_jars.py的python脚本会对包进行校验。
+
+解决措施：
+在build\core\tasks\check_boot_jars\package_whitelist.txt增加对应的包名
+
+
+```
+# framework.jar
+javax\.microedition\.khronos\.opengles
+javax\.microedition\.khronos\.egl
+```
+
+
+[参考链接](https://blog.csdn.net/pq5357/article/details/80660699/)
+
+
+
 
 <span id = "network"></span>
 ## 2、网络开发问题
