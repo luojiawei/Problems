@@ -12,6 +12,7 @@
 
 [5、NDK开发总结(捕获异常)](https://www.cnblogs.com/zhangyan-2015/p/5865536.html)
 
+[6、Android 编译命令 make j8 2>&1 | tee build.log 解释](https://www.cnblogs.com/ifzy/p/3854560.html)
 
 <span id = "enviroment"></span>
 ## 1、环境配置问题
