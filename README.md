@@ -14,6 +14,8 @@
 
 [6、Android 编译命令 make j8 2>&1 | tee build.log 解释](https://www.cnblogs.com/ifzy/p/3854560.html)
 
+[7、反编译操作步骤和工具](https://github.com/luojiawei/Problems/blob/master/Problem/反编译操作步骤和工具/反编译操作步骤和工具.md)
+
 <span id = "enviroment"></span>
 ## 1、环境配置问题
 #### 1.1  提交的commit没有被统计到contributions
